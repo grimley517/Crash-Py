@@ -2,6 +2,24 @@
 # Run this script with:  python3 functions.py
 
 
+# --- Variables and data types ---
+name = "Alice"        # str
+age = 16              # int
+height = 1.72         # float
+is_enrolled = True    # bool
+
+print(type(name))         # <class 'str'>
+print(type(age))          # <class 'int'>
+print(type(height))       # <class 'float'>
+print(type(is_enrolled))  # <class 'bool'>
+
+# Reassigning a variable
+score = 85
+print(score)   # 85
+score = 90
+print(score)   # 90
+
+
 # --- Defining a simple function ---
 def greet():
     print("Hello from inside a function!")

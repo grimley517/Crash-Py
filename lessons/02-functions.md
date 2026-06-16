@@ -8,23 +8,82 @@ permalink: /lessons/02-functions/
 
 **What this lesson is about**
 
-A *function* is a named, reusable block of code.  Instead of writing the same
-instructions over and over, you define them once and *call* the function whenever
-you need it.  This lesson covers the `def` keyword, how to pass information into
+Before we can write useful programs we need two building blocks: *variables*
+(named storage for values) and *functions* (named, reusable blocks of code).
+This lesson introduces both.  It covers how to assign values to variables,
+Python's four core data types, the `def` keyword, how to pass information into
 a function using *arguments*, how to get information back out using a *return
 value*, and the `pass` keyword that acts as a placeholder.
 
 **Why you need this**
 
-Functions are the single most important tool for keeping code organised and easy
-to maintain.  Almost every Python program you will ever write contains functions.
-Understanding them thoroughly makes all subsequent lessons much easier.
+Variables let you label and reuse values; functions let you name and reuse
+instructions.  Together they are the foundation of every Python program you will
+ever write, and every subsequent lesson builds on them.
 
 ---
 
 ## Do
 
-### Step 1 — Defining a simple function
+### Step 1 — Variables and data types
+
+A **variable** is a named label that stores a value.  You create a variable and
+give it a value using the *assignment operator* `=`:
+
+```python
+greeting = "Hello, World!"
+score = 42
+temperature = 36.6
+is_enrolled = True
+```
+
+The name is on the left; the value is on the right.  After this line executes,
+Python remembers the value whenever you use that name.
+
+**Naming rules**
+
+- Names may contain letters, digits, and underscores, but must **not** start
+  with a digit.
+- Names are case-sensitive: `score` and `Score` are two different variables.
+- By convention, use lowercase words separated by underscores:
+  `student_score`, `class_average`.
+
+**Core data types**
+
+Python automatically detects the type of a variable from the value you assign.
+The four types you will use most often are:
+
+| Type | Example values | Notes |
+|---|---|---|
+| `int` | `42`, `-7`, `0` | Whole number, no decimal point |
+| `float` | `3.14`, `-0.5`, `1.0` | Number with a decimal point |
+| `str` | `"Alice"`, `'hello'` | Text, enclosed in quotes |
+| `bool` | `True`, `False` | Logical true/false value (capital first letter) |
+
+```python
+name = "Alice"        # str
+age = 16              # int
+height = 1.72         # float
+is_enrolled = True    # bool
+
+print(type(name))         # <class 'str'>
+print(type(age))          # <class 'int'>
+print(type(height))       # <class 'float'>
+print(type(is_enrolled))  # <class 'bool'>
+```
+
+You can reassign a variable at any time — the new value replaces the old one:
+
+```python
+score = 85
+print(score)   # 85
+score = 90
+print(score)   # 90
+```
+
+---
+
+### Step 2 — Defining a simple function
 
 Create a new file called `functions.py` in your `~/crash-py` folder.
 
@@ -51,7 +110,7 @@ python3 functions.py
 
 ---
 
-### Step 2 — Arguments
+### Step 3 — Arguments
 
 Arguments let you pass values *into* a function so it can use them.
 
@@ -75,7 +134,7 @@ add(10, 2)  # prints 12
 
 ---
 
-### Step 3 — Return values
+### Step 4 — Return values
 
 Instead of printing inside the function you can *return* a value so the caller
 can use it.
@@ -101,7 +160,7 @@ print(is_even(7))   # False
 
 ---
 
-### Step 4 — The `pass` keyword
+### Step 5 — The `pass` keyword
 
 Sometimes you want to define a function as a *placeholder* — you know you will
 need it, but you have not written the body yet.  Python requires at least one
@@ -120,7 +179,7 @@ Python's syntax rules.
 
 ---
 
-### Step 5 — Named (keyword) arguments
+### Step 6 — Named (keyword) arguments
 
 You can call a function using argument *names* instead of relying on position.
 This makes code much more readable:
@@ -139,7 +198,7 @@ describe_triangle(height=4, base=6)
 
 ---
 
-### Step 6 — Putting it together
+### Step 7 — Putting it together
 
 ```python
 def rectangle_area(width, height):

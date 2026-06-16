@@ -26,7 +26,7 @@ All lesson code examples are available to download so you can run them yourself.
 | # | Title | Topics |
 |---|---|---|
 | [1](lessons/01-installation) | Installation & Hello World | Homebrew, Python, VS Code, running scripts |
-| [2](lessons/02-functions) | Functions | `def`, arguments, return values, `pass` |
+| [2](lessons/02-functions) | Functions | variables, data types, `def`, arguments, return values, `pass` |
 | [3](lessons/03-mathematics) | Mathematical Operations | Numbers, operators, Pythagoras |
 | [4](lessons/04-strings) | Strings | String manipulation and formatting |
 | [4a](lessons/04a-text-files) | Text Files | Opening, reading, and writing files |
