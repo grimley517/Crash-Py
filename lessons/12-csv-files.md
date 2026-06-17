@@ -6,7 +6,7 @@ permalink: /lessons/12-csv-files/
 
 ## Introduction
 
-**What this lesson is about**
+### What this lesson is about
 
 CSV (*Comma-Separated Values*) is one of the most important and universal data
 formats in computing.  A CSV file is plain text: each line represents a row of
@@ -17,7 +17,7 @@ Excel, Google Sheets, databases, statistical tools, and Python.
 Python's built-in `csv` module (part of the standard library — no installation
 needed) provides tools for reading, writing, and processing CSV files reliably.
 
-**Why you need this**
+### Why you need this
 
 CSV is the *lingua franca* of data exchange.  As a teacher you will encounter
 CSV files from mark books, assessment exports, registration systems, and open

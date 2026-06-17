@@ -6,7 +6,7 @@ permalink: /lessons/22-jupyter/
 
 ## Introduction
 
-**What this lesson is about**
+### What this lesson is about
 
 A *Jupyter notebook* is an interactive document that combines live Python code,
 formatted text (Markdown), equations, and output (including plots) in a single
@@ -14,7 +14,7 @@ file.  You run code one cell at a time and see the result immediately below it.
 This lesson covers installing Jupyter, writing and running notebooks, and
 understanding when to use them.
 
-**Why you need this**
+### Why you need this
 
 The next two lessons use `requests` and `pandas` / `matplotlib` — libraries
 that produce a lot of output and benefit enormously from interactive

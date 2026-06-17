@@ -6,7 +6,7 @@ permalink: /lessons/24-requests-retry/
 
 ## Introduction
 
-**What this lesson is about**
+### What this lesson is about
 
 Network calls can fail for many reasons: the server is temporarily overloaded,
 your Wi-Fi drops for a moment, or the API rate-limits your requests.  A
@@ -15,7 +15,7 @@ the request — but only a sensible number of times, and only for errors that
 are worth retrying.  This lesson builds a `fetch_with_retry` function using
 `try / except`, a *default parameter*, and *recursion*.
 
-**Why you need this**
+### Why you need this
 
 You already know `try / except` from Lesson 21.  Here you will see how to
 combine it with a recursive function to build something genuinely useful.

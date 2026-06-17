@@ -6,14 +6,14 @@ permalink: /lessons/13-excel-files/
 
 ## Introduction
 
-**What this lesson is about**
+### What this lesson is about
 
 Excel spreadsheets (`.xlsx` files) are common in schools for recording marks,
 registers, and data.  This lesson shows you how to read an Excel file into
 Python, process the data, and write the results to a new Excel file using the
 `openpyxl` library.
 
-**Why you need this**
+### Why you need this
 
 Being able to automate Excel tasks with Python means you can process large
 mark books, generate reports, and transform data far more quickly than by hand.

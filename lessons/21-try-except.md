@@ -6,14 +6,14 @@ permalink: /lessons/21-try-except/
 
 ## Introduction
 
-**What this lesson is about**
+### What this lesson is about
 
 When a Python program encounters an unexpected condition — a missing file, an
 invalid input, a network timeout — it raises an **exception**.  By default this
 crashes the program with an error message.  The `try … except` statement lets
 you *catch* exceptions and respond to them gracefully instead.
 
-**Why you need this**
+### Why you need this
 
 The next lesson uses the `requests` library to fetch data from the internet.
 Network calls can fail for many reasons: no internet connection, a server that
@@ -69,7 +69,7 @@ except ZeroDivisionError:
 print("Program continues here.")
 ```
 
-**How it works:**
+### How it works:
 1. Python executes the `try` block.
 2. If an exception matching `except` is raised, execution jumps to the `except`
    block.

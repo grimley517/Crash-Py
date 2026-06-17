@@ -6,7 +6,7 @@ permalink: /lessons/01-installation/
 
 ## Introduction
 
-**What this lesson is about**
+### What this lesson is about
 
 Before writing any Python code you need the right tools on your computer.
 This lesson walks you through installing Python, a code editor (Visual Studio
@@ -14,7 +14,7 @@ Code), and a package manager on your machine — **Homebrew** on a Mac or
 **Chocolatey** on Windows.  You will then write your first Python program — the
 traditional "Hello, World!" — and learn how to run it from a terminal.
 
-**Why you need this**
+### Why you need this
 
 Every lesson that follows requires Python to be installed and a place to write
 code.  Getting comfortable with the terminal is an essential skill: it lets you

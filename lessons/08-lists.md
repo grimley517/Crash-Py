@@ -6,14 +6,14 @@ permalink: /lessons/08-lists/
 
 ## Introduction
 
-**What this lesson is about**
+### What this lesson is about
 
 A *list* is an ordered, changeable collection of items.  Items in a list can be
 numbers, strings, or even other lists.  This lesson covers creating lists,
 accessing their elements, modifying them, and using the powerful `for … in`
 loop to process each item in turn.
 
-**Why you need this**
+### Why you need this
 
 Virtually every real-world dataset is a collection of items — student names,
 test scores, exam results.  Lists are the primary way Python stores and

@@ -6,14 +6,14 @@ permalink: /lessons/14-markdown/
 
 ## Introduction
 
-**What this lesson is about**
+### What this lesson is about
 
 Markdown is a lightweight markup language — a simple set of conventions for
 adding formatting to plain text.  This lesson covers the Markdown syntax,
 explains how this very website is built from Markdown files using Jekyll, and
 shows you how to write your own Markdown documents.
 
-**Why you need this**
+### Why you need this
 
 Markdown is used everywhere in the Python world: README files, Jupyter
 notebooks, GitHub comments, and documentation sites.  Understanding it helps you

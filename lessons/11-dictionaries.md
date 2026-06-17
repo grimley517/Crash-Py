@@ -6,14 +6,14 @@ permalink: /lessons/11-dictionaries/
 
 ## Introduction
 
-**What this lesson is about**
+### What this lesson is about
 
 A *dictionary* stores data as *key–value pairs*.  Instead of finding an item
 by its position (as with a list), you look it up by name.  This lesson covers
 creating dictionaries, reading and updating values, iterating over them, and
 common patterns for using them.
 
-**Why you need this**
+### Why you need this
 
 Dictionaries are the natural structure for records — a student's details, a
 set of settings, JSON data from the internet.  They appear throughout the

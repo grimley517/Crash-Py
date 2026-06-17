@@ -6,13 +6,13 @@ permalink: /lessons/26-pandas-graphs/
 
 ## Introduction
 
-**What this lesson is about**
+### What this lesson is about
 
 Numbers alone rarely tell a complete story.  This lesson combines `pandas` with
 `matplotlib` — Python's most widely used plotting library — to produce bar
 charts, histograms, scatter plots, and box plots from data held in a DataFrame.
 
-**Why you need this**
+### Why you need this
 
 Visualisation is a core skill for a maths teacher: spotting trends in class
 results, comparing groups, presenting data to students or parents.  Python

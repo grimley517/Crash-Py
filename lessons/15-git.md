@@ -6,7 +6,7 @@ permalink: /lessons/15-git/
 
 ## Introduction
 
-**What this lesson is about**
+### What this lesson is about
 
 *Git* is the world's most widely used version control system.  It tracks every
 change you make to a project over time, lets you experiment safely, and enables
@@ -14,7 +14,7 @@ multiple people to collaborate on the same codebase.  This lesson covers
 installing Git, configuring it, and the core workflow: initialise a repository,
 stage changes, commit them, and review history.
 
-**Why you need this**
+### Why you need this
 
 Even working alone, Git protects you: you can always roll back to a version
 that worked.  For the next two lessons you will use Git to publish your lessons
@@ -27,7 +27,7 @@ that runs on the same Markdown and Jekyll you learned in Lesson 14.
 
 ### Step 1 — Install Git
 
-**Mac:**
+### Mac:
 
 ```bash
 git --version
@@ -40,7 +40,7 @@ Line Tools.  Follow the prompt.  Alternatively, with Homebrew:
 brew install git
 ```
 
-**Windows:**
+### Windows:
 
 ```bash
 choco install git -y

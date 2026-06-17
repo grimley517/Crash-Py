@@ -6,14 +6,14 @@ permalink: /lessons/07-text-files/
 
 ## Introduction
 
-**What this lesson is about**
+### What this lesson is about
 
 Programs frequently need to read data from files and write results back to files.
 This lesson introduces Python's built-in file operations: opening a file,
 reading its contents, writing new content, and the `with` statement that ensures
 files are closed safely.
 
-**Why you need this**
+### Why you need this
 
 Most real-world data lives in files: student registers, mark sheets, resources
 for lessons.  Being able to read from and write to text files gives your Python

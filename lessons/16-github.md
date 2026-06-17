@@ -6,7 +6,7 @@ permalink: /lessons/16-github/
 
 ## Introduction
 
-**What this lesson is about**
+### What this lesson is about
 
 *GitHub* is a cloud hosting service for Git repositories.  It adds a web
 interface, pull requests, issues, and (crucially) free hosting for static
@@ -14,7 +14,7 @@ sites via *GitHub Pages*.  This lesson covers creating a GitHub account,
 connecting your local Git repository to a remote, and pushing and pulling
 changes.
 
-**Why you need this**
+### Why you need this
 
 A local Git repository is great, but storing your code on GitHub means it is
 backed up, shareable, and ready to publish as a website.  In the next lesson

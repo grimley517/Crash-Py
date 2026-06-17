@@ -6,7 +6,7 @@ permalink: /lessons/18-json/
 
 ## Introduction
 
-**What this lesson is about**
+### What this lesson is about
 
 JSON (*JavaScript Object Notation*) is the most widely used format for
 exchanging data between programs and over the internet.  This lesson explains
@@ -15,7 +15,7 @@ to convert between JSON text and Python objects using the built-in `json` module
 You will also build a practical example that converts a mark sheet from a CSV
 file into a structured JSON file.
 
-**Why you need this**
+### Why you need this
 
 JSON is everywhere: web APIs (covered in the Requests lesson), configuration files, data exports.
 Once you understand JSON you will find it easy to work with any modern data

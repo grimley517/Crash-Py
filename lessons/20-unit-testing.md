@@ -6,7 +6,7 @@ permalink: /lessons/20-unit-testing/
 
 ## Introduction
 
-**What this lesson is about**
+### What this lesson is about
 
 A *unit test* is a small, automated check that verifies one specific piece of
 your code produces the correct output for a given input.  This lesson introduces
@@ -14,7 +14,7 @@ your code produces the correct output for a given input.  This lesson introduces
 write, organise, and run tests for the functions you have built in earlier
 lessons.
 
-**Why you need this**
+### Why you need this
 
 As programs grow, it becomes impossible to manually check every function every
 time you make a change.  Automated tests catch mistakes immediately and give you

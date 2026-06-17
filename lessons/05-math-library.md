@@ -6,7 +6,7 @@ permalink: /lessons/05-math-library/
 
 ## Introduction
 
-**What this lesson is about**
+### What this lesson is about
 
 Python comes with a large [standard library](https://docs.python.org/3/library/)
 — hundreds of ready-made modules covering maths, file handling, dates, internet
@@ -14,7 +14,7 @@ access, and much more.  This lesson focuses on the
 [`math` module](https://docs.python.org/3/library/math.html) as a practical
 example of **how to read and navigate official Python documentation**.
 
-**Why you need this**
+### Why you need this
 
 Every library you meet in this course has official documentation.  Learning how
 to read docs is more valuable than memorising any particular function:

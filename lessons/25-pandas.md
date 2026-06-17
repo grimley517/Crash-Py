@@ -6,7 +6,7 @@ permalink: /lessons/25-pandas/
 
 ## Introduction
 
-**What this lesson is about**
+### What this lesson is about
 
 `pandas` is Python's premier data analysis library.  Its central object — the
 *DataFrame* — is like a spreadsheet inside Python: rows and columns of data
@@ -14,7 +14,7 @@ that you can filter, sort, group, and summarise with concise commands.  This
 lesson covers loading data from a CSV file, computing descriptive statistics,
 and answering real questions about a dataset.
 
-**Why you need this**
+### Why you need this
 
 Pandas lets you analyse datasets that would be tedious or error-prone to process
 manually in Excel.  It forms the backbone of data science in Python and combines

@@ -6,13 +6,13 @@ permalink: /lessons/06-strings/
 
 ## Introduction
 
-**What this lesson is about**
+### What this lesson is about
 
 A *string* is a sequence of characters — basically any text.  This lesson covers
 how to create strings, combine them, extract parts of them, and use Python's
 rich set of built-in string methods to manipulate text.
 
-**Why you need this**
+### Why you need this
 
 Data rarely arrives in exactly the right format.  Student names have inconsistent
 capitalisation, spreadsheet entries have trailing spaces, and values need to be

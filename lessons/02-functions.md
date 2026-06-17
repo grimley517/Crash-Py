@@ -6,7 +6,7 @@ permalink: /lessons/02-functions/
 
 ## Introduction
 
-**What this lesson is about**
+### What this lesson is about
 
 Before we can write useful programs we need two building blocks: *variables*
 (named storage for values) and *functions* (named, reusable blocks of code).
@@ -15,7 +15,7 @@ Python's four core data types, the `def` keyword, how to pass information into
 a function using *arguments*, how to get information back out using a *return
 value*, and the `pass` keyword that acts as a placeholder.
 
-**Why you need this**
+### Why you need this
 
 Variables let you label and reuse values; functions let you name and reuse
 instructions.  Together they are the foundation of every Python program you will
@@ -31,16 +31,17 @@ A **variable** is a named label that stores a value.  You create a variable and
 give it a value using the *assignment operator* `=`:
 
 ```python
-greeting = "Hello, World!"
-score = 42
-temperature = 36.6
-is_enrolled = True
+name = "Alice"        
+age = 16              
+height = 1.72         
+is_enrolled = True    
 ```
 
-The name is on the left; the value is on the right.  After this line executes,
-Python remembers the value whenever you use that name.
+NB: Running this will produce no output. This is an example only
 
-**Naming rules**
+The above code shows 4 variables being set. The name is on the left; the value is on the right.  After this line executes, Python remembers the value whenever you use that name.
+
+### Naming rules
 
 - Names may contain letters, digits, and underscores, but must **not** start
   with a digit.
@@ -48,7 +49,7 @@ Python remembers the value whenever you use that name.
 - By convention, use lowercase words separated by underscores:
   `student_score`, `class_average`.
 
-**Core data types**
+### Core data types
 
 Python automatically detects the type of a variable from the value you assign.
 The four types you will use most often are:

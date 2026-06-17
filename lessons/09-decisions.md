@@ -6,14 +6,14 @@ permalink: /lessons/09-decisions/
 
 ## Introduction
 
-**What this lesson is about**
+### What this lesson is about
 
 Programs need to make decisions — taking different actions depending on
 conditions.  This lesson covers Python's `if`, `elif`, and `else` statements,
 comparison operators, logical operators, and how to combine them to build
 programs that respond intelligently to data.
 
-**Why you need this**
+### Why you need this
 
 Almost every useful program makes decisions.  Assigning a grade from a score,
 flagging results that need attention, choosing which calculation to perform —

@@ -6,14 +6,14 @@ permalink: /lessons/10-for-loops/
 
 ## Introduction
 
-**What this lesson is about**
+### What this lesson is about
 
 You met `for … in` with lists in Lesson 8.  This lesson introduces `range()`,
 which generates a sequence of numbers on demand, making it possible to loop a
 known number of times without creating a list manually.  You will also look at
 nested loops — loops inside loops — and the `break` and `continue` keywords.
 
-**Why you need this**
+### Why you need this
 
 Many mathematical and classroom tasks repeat a fixed number of times: produce a
 times table for numbers 1–12, check every integer from 1 to 100, build a grid

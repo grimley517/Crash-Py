@@ -6,14 +6,14 @@ permalink: /lessons/03-mathematics/
 
 ## Introduction
 
-**What this lesson is about**
+### What this lesson is about
 
 Python is an excellent calculator.  This lesson covers how Python represents
 numbers, the arithmetic operators it supports, and how to build useful maths
 functions — specifically Pythagoras' theorem functions that will feel immediately
 relevant to a maths teacher.
 
-**Why you need this**
+### Why you need this
 
 Understanding Python's number types and operators is the foundation of any
 quantitative work — statistics, data analysis, graph plotting — all of which
@@ -159,7 +159,7 @@ print((2 + 3) * 4)  # 20  (brackets first)
 Python's number types have some important quirks you should know before using
 them for serious maths work.
 
-**Float precision**
+### Float precision
 
 Floats are stored in binary, which cannot represent some decimal fractions
 exactly.  This leads to surprising results:
@@ -176,7 +176,7 @@ import math
 print(math.isclose(0.1 + 0.2, 0.3))   # True
 ```
 
-**Division always returns a float**
+### Division always returns a float
 
 ```python
 print(10 / 2)    # 5.0 — not 5
@@ -190,14 +190,14 @@ print(10 // 3)   # 3  (rounds down)
 print(-7 // 2)   # -4 (rounds towards negative infinity!)
 ```
 
-**Mixed arithmetic promotes to float**
+### Mixed arithmetic promotes to float
 
 ```python
 print(type(3 + 2))      # <class 'int'>   — int + int → int
 print(type(3 + 2.0))    # <class 'float'> — int + float → float
 ```
 
-**Integers have unlimited precision**
+### Integers have unlimited precision
 
 Unlike many languages, Python integers can be arbitrarily large with no
 overflow:
@@ -206,7 +206,7 @@ overflow:
 print(2 ** 100)   # 1267650600228229401496703205376 — exact!
 ```
 
-**Converting between types**
+### Converting between types
 
 Use `int()` and `float()` to convert explicitly:
 

@@ -6,7 +6,7 @@ permalink: /lessons/17-github-pages/
 
 ## Introduction
 
-**What this lesson is about**
+### What this lesson is about
 
 *GitHub Pages* is a free static site hosting service built into GitHub.  Any
 public repository can serve a website built from Markdown files and a Jekyll
@@ -14,7 +14,7 @@ theme — no server, no cost, no configuration beyond a single settings toggle.
 This lesson guides you through creating a classroom blog: a simple Jekyll site
 where you (or your students) can publish posts about what they are learning.
 
-**Why you need this**
+### Why you need this
 
 A classroom blog is a genuine project you can use immediately.  It practises
 the Markdown you learned in Lesson 14, the Git and GitHub skills from Lessons

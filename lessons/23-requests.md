@@ -6,14 +6,14 @@ permalink: /lessons/23-requests/
 
 ## Introduction
 
-**What this lesson is about**
+### What this lesson is about
 
 The `requests` library makes it straightforward to call web APIs — services
 that respond to HTTP requests with data, usually in JSON format.  This lesson
 shows you how to make a GET request, inspect the response, and work with the
 JSON data returned.
 
-**Why you need this**
+### Why you need this
 
 Web APIs are how programs communicate with the wider internet: weather services,
 government data portals, maths databases.  Being able to retrieve and use live

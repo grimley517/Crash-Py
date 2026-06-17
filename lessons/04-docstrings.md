@@ -6,7 +6,7 @@ permalink: /lessons/04-docstrings/
 
 ## Introduction
 
-**What this lesson is about**
+### What this lesson is about
 
 A *docstring* is a string placed immediately after a `def` statement (or at
 the top of a module) that describes what the function does.  It is the primary
@@ -14,7 +14,7 @@ way Python functions document themselves.  This lesson covers how to write
 docstrings, how Python stores them, and how to read them using `help()` — a
 skill you will use every time you explore a new library.
 
-**Why you need this**
+### Why you need this
 
 Code without documentation is harder to reuse and share.  When you call
 `help(some_function)` in the next lesson on the `math` library, Python is
