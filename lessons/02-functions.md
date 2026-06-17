@@ -27,8 +27,7 @@ ever write, and every subsequent lesson builds on them.
 
 ### Step 1 — Variables and data types
 
-A **variable** is a named label that stores a value.  You create a variable and
-give it a value using the *assignment operator* `=`:
+A [**variable**](https://docs.python.org/3/reference/lexical_analysis.html#names-identifiers-and-keywords) is a named label that stores a value.  You create a variable and give it a value using the *assignment operator* `=`:
 
 ```python
 name = "Alice"        
@@ -41,13 +40,28 @@ NB: Running this will produce no output. This is an example only
 
 The above code shows 4 variables being set. The name is on the left; the value is on the right.  After this line executes, Python remembers the value whenever you use that name.
 
-### Naming rules
+#### References:
 
-- Names may contain letters, digits, and underscores, but must **not** start
-  with a digit.
+These links contain a lot of data, just know these are here to refer to later.
+
+- [boolean data](https://docs.python.org/3/library/stdtypes.html#boolean-type-bool)
+    - A boolean data has 2 values , `True` or `False`
+- [string data](https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str)
+    - String data is any sequence of characters, think any text.  
+    - Be aware that numbers are often text.
+        - An example if this is a phone number, this is useful as it maintains the leading 0, and we don't usually have any need to perform any operations on phone numbers
+- [numeric](https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex)
+
+
+### Variable Naming Rules
+
+- Names may contain letters, digits, and underscores, but must **not** start with a digit.
 - Names are case-sensitive: `score` and `Score` are two different variables.
 - By convention, use lowercase words separated by underscores:
-  `student_score`, `class_average`.
+    - `student_score`
+    - `class_average`
+- *System variables*: that you may see later have double underscores. You can use these in your scripts, but avoid creating them as your own variables.
+    - eg `__name__`
 
 ### Core data types
 
@@ -148,7 +162,7 @@ result = add(3, 5)
 print("The answer is", result)
 ```
 
-The `return` statement sends a value back to whoever called the function.
+The `return` statement sends a value back to whatever called the function.
 Execution of the function stops at `return`.
 
 ```python
