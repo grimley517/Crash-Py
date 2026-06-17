@@ -32,6 +32,15 @@ def grade(score):
 for s in [95, 85, 72, 62, 55, 40]:
     print(f"{s} → {grade(s)}")
 
+# --- Boolean data and operations ---
+passed_exam = True
+good_attendance = False
+
+print(type(passed_exam))
+print(passed_exam and good_attendance)
+print(passed_exam or good_attendance)
+print(not passed_exam)
+
 # --- Logical operators ---
 score = 75
 attendance = 80

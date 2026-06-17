@@ -79,7 +79,26 @@ Python checks conditions from top to bottom and uses the *first* one that is
 
 ---
 
-### Step 4 — Comparison operators
+### Step 4 — Boolean data (`bool`)
+
+Python has a dedicated boolean type, `bool`, with exactly two values:
+`True` and `False`.
+
+```python
+is_weekday = True
+has_homework = False
+
+print(type(is_weekday))  # <class 'bool'>
+print(is_weekday)        # True
+print(has_homework)      # False
+```
+
+Many decisions in code are based on boolean variables that were computed
+earlier in your program.
+
+---
+
+### Step 5 — Comparison operators
 
 | Operator | Meaning |
 |---|---|
@@ -100,7 +119,7 @@ print(10 > 20)  # False
 
 ---
 
-### Step 5 — Logical operators
+### Step 6 — Logical operators
 
 ```python
 score = 75
@@ -121,7 +140,23 @@ if not score >= 50:
 
 ---
 
-### Step 6 — Chaining comparisons
+### Step 7 — Boolean operations with `and`, `or`, `not`
+
+```python
+passed_exam = True
+good_attendance = False
+
+print(passed_exam and good_attendance)  # False
+print(passed_exam or good_attendance)   # True
+print(not passed_exam)                  # False
+```
+
+These operators combine or invert booleans and are used constantly in `if`
+statements.
+
+---
+
+### Step 8 — Chaining comparisons
 
 Python allows you to chain comparisons naturally:
 
@@ -134,7 +169,7 @@ if 70 <= mark < 80:
 
 ---
 
-### Step 7 — Practical example: classifying triangles
+### Step 9 — Practical example: classifying triangles
 
 ```python
 def classify_triangle(a, b, c):

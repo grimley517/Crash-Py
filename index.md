@@ -33,7 +33,7 @@ All lesson code examples are available to download so you can run them yourself.
 | [6](lessons/06-strings) | Strings | String manipulation and formatting |
 | [7](lessons/07-text-files) | Text Files | Opening, reading, and writing files |
 | [8](lessons/08-lists) | Lists | Lists and `for … in` loops |
-| [9](lessons/09-decisions) | Decisions | `if`, `elif`, `else` |
+| [9](lessons/09-decisions) | Decisions | `if`, `elif`, `else`, booleans (`True`/`False`), `and`/`or`/`not` |
 | [10](lessons/10-for-loops) | For Loops with Range | `range()`, iteration patterns |
 | [11](lessons/11-dictionaries) | Dictionaries | Key-value data structures |
 | [12](lessons/12-csv-files) | CSV Files | Reading and writing `.csv` |
@@ -43,7 +43,7 @@ All lesson code examples are available to download so you can run them yourself.
 | [16](lessons/16-github) | GitHub — Remote Repositories and Collaboration | Remotes, pushing, pulling, GitHub repositories |
 | [17](lessons/17-github-pages) | GitHub Pages — Publishing Your Classroom Blog | GitHub Pages, Jekyll config, publishing a static site |
 | [18](lessons/18-json) | JSON | JSON format, lists and dicts, marksheets |
-| [19](lessons/19-uv) | Python Packaging with uv | Virtual environments, dependency management, `uv`, `requirements.txt` |
+| [19](lessons/19-uv) | Code Reuse with Modules | Imports, writing modules, `if __name__ == "__main__":`, script entry points |
 | [20](lessons/20-unit-testing) | Unit Testing | Testing with `pytest` |
 | [21](lessons/21-try-except) | Error Handling — try / except | Exceptions, `try`, `except`, graceful failure |
 | [22](lessons/22-jupyter) | Jupyter Notebooks | Interactive notebooks, Markdown cells, running code cell by cell |
