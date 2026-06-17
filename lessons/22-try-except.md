@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Lesson 21: Error Handling — try / except"
-permalink: /lessons/21-try-except/
+title: "Lesson 22: Error Handling — try / except"
+permalink: /lessons/22-try-except/
 ---
 
 ## Introduction
@@ -209,5 +209,5 @@ nearest matching `except` clause.
 
 ---
 
-[← Lesson 20]({{ site.baseurl }}/lessons/20-unit-testing/)
-[Next Lesson: Jupyter Notebooks →]({{ site.baseurl }}/lessons/22-jupyter/)
+[← Lesson 21]({{ site.baseurl }}/lessons/21-unit-testing/)
+[Next Lesson: Jupyter Notebooks →]({{ site.baseurl }}/lessons/23-jupyter/)

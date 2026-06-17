@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Lesson 25: Pandas"
-permalink: /lessons/25-pandas/
+title: "Lesson 26: Pandas"
+permalink: /lessons/26-pandas/
 ---
 
 ## Introduction
@@ -198,7 +198,7 @@ df_excel = pd.read_excel("student_scores.xlsx")
 print(df_excel.head())
 ```
 
-> **Download:** [pandas_stats.py]({{ site.baseurl }}/resources/lesson-25/pandas_stats.py)
+> **Download:** [pandas_stats.py]({{ site.baseurl }}/resources/lesson-26/pandas_stats.py)
 
 ---
 
@@ -218,5 +218,5 @@ print(df_excel.head())
 
 ---
 
-[← Lesson 24]({{ site.baseurl }}/lessons/24-requests-retry/)
-[Next Lesson: Pandas Graphs →]({{ site.baseurl }}/lessons/26-pandas-graphs/)
+[← Lesson 25]({{ site.baseurl }}/lessons/25-requests-retry/)
+[Next Lesson: Pandas Graphs →]({{ site.baseurl }}/lessons/27-pandas-graphs/)

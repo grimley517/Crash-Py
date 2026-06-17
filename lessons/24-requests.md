@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Lesson 23: Requests"
-permalink: /lessons/23-requests/
+title: "Lesson 24: Requests"
+permalink: /lessons/24-requests/
 ---
 
 ## Introduction
@@ -144,7 +144,7 @@ for q in data["results"]:
     print()
 ```
 
-> **Download:** [requests_example.py]({{ site.baseurl }}/resources/lesson-23/requests_example.py)
+> **Download:** [requests_example.py]({{ site.baseurl }}/resources/lesson-24/requests_example.py)
 
 ---
 
@@ -163,5 +163,5 @@ for q in data["results"]:
 
 ---
 
-[← Lesson 22]({{ site.baseurl }}/lessons/22-jupyter/)
-[Next Lesson: Robust Requests — Retry Mechanics →]({{ site.baseurl }}/lessons/24-requests-retry/)
+[← Lesson 23]({{ site.baseurl }}/lessons/23-jupyter/)
+[Next Lesson: Robust Requests — Retry Mechanics →]({{ site.baseurl }}/lessons/25-requests-retry/)

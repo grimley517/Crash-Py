@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Lesson 24: Robust Requests — Retry Mechanics"
-permalink: /lessons/24-requests-retry/
+title: "Lesson 25: Robust Requests — Retry Mechanics"
+permalink: /lessons/25-requests-retry/
 ---
 
 ## Introduction
@@ -207,5 +207,5 @@ except RuntimeError as e:
 
 ---
 
-[← Lesson 23]({{ site.baseurl }}/lessons/23-requests/)
-[Next Lesson: Pandas →]({{ site.baseurl }}/lessons/25-pandas/)
+[← Lesson 24]({{ site.baseurl }}/lessons/24-requests/)
+[Next Lesson: Pandas →]({{ site.baseurl }}/lessons/26-pandas/)

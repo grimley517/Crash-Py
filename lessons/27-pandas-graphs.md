@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Lesson 26: Pandas Graphs"
-permalink: /lessons/26-pandas-graphs/
+title: "Lesson 27: Pandas Graphs"
+permalink: /lessons/27-pandas-graphs/
 ---
 
 ## Introduction
@@ -166,7 +166,7 @@ plt.savefig("combined.png", dpi=150)
 plt.show()
 ```
 
-> **Download:** [pandas_graphs.py]({{ site.baseurl }}/resources/lesson-26/pandas_graphs.py)
+> **Download:** [pandas_graphs.py]({{ site.baseurl }}/resources/lesson-27/pandas_graphs.py)
 
 ---
 
@@ -186,5 +186,5 @@ plt.show()
 
 ---
 
-[← Lesson 25]({{ site.baseurl }}/lessons/25-pandas/)
+[← Lesson 26]({{ site.baseurl }}/lessons/26-pandas/)
 [Back to All Lessons]({{ site.baseurl }}/lessons/)

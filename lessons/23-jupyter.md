@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Lesson 22: Jupyter Notebooks"
-permalink: /lessons/22-jupyter/
+title: "Lesson 23: Jupyter Notebooks"
+permalink: /lessons/23-jupyter/
 ---
 
 ## Introduction
@@ -150,5 +150,5 @@ or create a `.ipynb` file.
 
 ---
 
-[← Lesson 21]({{ site.baseurl }}/lessons/21-try-except/)
-[Next Lesson: Requests →]({{ site.baseurl }}/lessons/23-requests/)
+[← Lesson 22]({{ site.baseurl }}/lessons/22-try-except/)
+[Next Lesson: Requests →]({{ site.baseurl }}/lessons/24-requests/)
