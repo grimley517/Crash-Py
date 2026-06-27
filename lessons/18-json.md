@@ -173,4 +173,4 @@ structure.
 ---
 
 [← Lesson 17]({{ site.baseurl }}/lessons/17-github-pages/)
-[Next Lesson: Python Packaging with uv →]({{ site.baseurl }}/lessons/19-uv/)
+[Next Lesson: Code Reuse with Modules →]({{ site.baseurl }}/lessons/19-uv/)
