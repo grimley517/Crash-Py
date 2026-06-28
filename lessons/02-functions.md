@@ -249,4 +249,4 @@ print("Perimeter:", rectangle_perimeter(w, h))
 ---
 
 [← Lesson 1]({{ site.baseurl }}/lessons/01-installation/)
-[Next Lesson: Mathematics →]({{ site.baseurl }}/lessons/03-mathematics/)
+[Next Lesson: Mathematical Operations →]({{ site.baseurl }}/lessons/03-mathematics/)
