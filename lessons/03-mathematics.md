@@ -24,6 +24,8 @@ exercise in combining maths knowledge with the functions you learned in Lesson 2
 
 ## Do
 
+Start a new file `mathematics.py` in your project folder
+
 ### Step 1 — Number types
 
 Python has two main numeric types:
@@ -39,6 +41,8 @@ b = 3.5      # float
 print(type(a))   # <class 'int'>
 print(type(b))   # <class 'float'>
 ```
+
+Python also understands complex numbers, read the [documentation](https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex) for more details.
 
 ---
 
@@ -71,7 +75,7 @@ print(2 ** 8)   # Exponentiation → 256
 Python's built-in `math` module provides many useful functions:
 
 ```python
-import math
+import math               # Import statements generally go at the very top of the code 
 
 print(math.sqrt(16))      # 4.0  — square root
 print(math.pi)            # 3.141592...
@@ -79,6 +83,10 @@ print(math.floor(3.9))    # 3  — round down
 print(math.ceil(3.1))     # 4  — round up
 print(math.fabs(-7))      # 7.0 — absolute value
 ```
+
+The math library is a built in library. Further details are available from the [math library documentation](https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex)
+
+The lowest common multiple of 6 and 9 is 3. use the library to write a print statement to print this out.
 
 ---
 
@@ -95,11 +103,13 @@ import math
 
 def hypotenuse(a, b):
     """Return the length of the hypotenuse given the two shorter sides."""
-    return math.sqrt(a**2 + b**2)
+    pass # replace this with code to find a hypotenuse.
 
 print(hypotenuse(3, 4))    # 5.0
 print(hypotenuse(5, 12))   # 13.0
 ```
+
+Complete the function to make it work. Hint: math is already imported in your file you don't need to import it again.
 
 ---
 
@@ -112,38 +122,18 @@ If you know the hypotenuse `c` and one shorter side `a`, the other short side is
 ```python
 def shorter_side(hyp, a):
     """Return the missing shorter side given the hypotenuse and one side."""
-    return math.sqrt(hyp**2 - a**2)
+    pass   # replace this with code to find a shorter side.
 
 print(shorter_side(5, 3))    # 4.0
 print(shorter_side(13, 5))   # 12.0
 ```
 
----
+Correct the fnction to make it work
 
-### Step 6 — Named arguments and rounding
-
-Bring both functions together and add rounding for cleaner output:
-
-```python
-import math
-
-def hypotenuse(a, b):
-    return math.sqrt(a**2 + b**2)
-
-def shorter_side(hyp, a):
-    return math.sqrt(hyp**2 - a**2)
-
-# Named arguments make the call self-documenting
-c = hypotenuse(a=3, b=4)
-print(f"Hypotenuse: {c:.4f}")        # 4 decimal places
-
-b = shorter_side(hyp=13, a=5)
-print(f"Short side: {round(b, 2)}")  # round() built-in
-```
 
 ---
 
-### Step 7 — Order of operations
+### Step 6 — Order of operations
 
 Python follows standard BODMAS / BIDMAS rules.  Use parentheses to be explicit:
 
@@ -154,7 +144,7 @@ print((2 + 3) * 4)  # 20  (brackets first)
 
 ---
 
-### Step 8 — Numeric type gotchas
+### Step 7 — Numeric type gotchas
 
 Python's number types have some important quirks you should know before using
 them for serious maths work.
@@ -225,12 +215,10 @@ z = int("42")   # 42 — works on numeric strings too
 1. Write a function `circle_area(radius)` that returns the area of a circle.
    Use `math.pi`.
 2. What is `7 % 3`?  What does the modulo operator tell you in practical terms
-   — for example, how could you use it to check if a year is a leap year?
-3. The `round()` function takes an optional second argument: `round(3.14159, 2)`
-   gives `3.14`.  Experiment with rounding to different numbers of decimal places.
-4. Write a function `is_right_triangle(a, b, c)` that returns `True` if the
-   three sides form a right-angled triangle, and `False` otherwise.
-5. What happens when you try `math.sqrt(-1)`?  Python has a `cmath` (complex
+   — A leap year is divisible by 4 except for century years, which are not leap years. Write a function to check if a year is a leap year.
+3. Rewrite the hypotenuse function to return the answer correct to 2 decimal places (hint: look in the documentation for the math module)
+4. What happens when you try `math.sqrt(-1)`?
+   - Python has a `cmath` (complex
    math) module — can you find out how to compute complex square roots?
 
 ---
