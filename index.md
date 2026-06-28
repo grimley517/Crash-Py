@@ -29,7 +29,6 @@ All lesson code examples are available to download so you can run them yourself.
 | [2](lessons/02-functions) | Functions | variables, data types, `def`, arguments, return values, `pass` |
 | [3](lessons/03-mathematics) | Mathematical Operations | Numbers, operators, numeric data types, `int`, `float` |
 | [4](lessons/04-docstrings) | Docstrings and Code Documentation | Docstrings, `help()`, function documentation, `__doc__` |
-| [5](lessons/05-math-library) | Reading Library Documentation | Standard library, `math` module, official docs, reading function references |
 | [6](lessons/06-strings) | Strings | String manipulation and formatting |
 | [7](lessons/07-text-files) | Text Files | Opening, reading, and writing files |
 | [8](lessons/08-lists) | Lists | Lists and `for … in` loops |

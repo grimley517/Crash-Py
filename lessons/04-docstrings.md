@@ -17,10 +17,10 @@ skill you will use every time you explore a new library.
 ### Why you need this
 
 Code without documentation is harder to reuse and share.  When you call
-`help(some_function)` in the next lesson on the `math` library, Python is
-displaying that function's docstring.  Writing your own docstrings is the same
-skill in reverse: you are the author providing the documentation that future
-readers (including yourself) will rely on.
+`help(some_function)`, Python is displaying that function's docstring.
+Writing your own docstrings is the same skill in reverse: you are the author
+providing the documentation that future readers (including yourself) will rely
+on.
 
 ---
 
@@ -155,4 +155,4 @@ code gives it the same discoverability.
 ---
 
 [← Lesson 3]({{ site.baseurl }}/lessons/03-mathematics/)
-[Next Lesson: Reading Library Documentation →]({{ site.baseurl }}/lessons/05-math-library/)
+[Next Lesson: Strings →]({{ site.baseurl }}/lessons/06-strings/)

@@ -166,5 +166,5 @@ print(f"Score: {score}, Grade: {grade}")
 
 ---
 
-[← Lesson 5]({{ site.baseurl }}/lessons/05-math-library/)
+[← Lesson 4]({{ site.baseurl }}/lessons/04-docstrings/)
 [Next Lesson: Text Files →]({{ site.baseurl }}/lessons/07-text-files/)
