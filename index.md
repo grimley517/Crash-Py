@@ -29,22 +29,23 @@ All lesson code examples are available to download so you can run them yourself.
 | [2](lessons/02-functions) | Functions | variables, data types, `def`, arguments, return values, `pass` |
 | [3](lessons/03-mathematics) | Mathematical Operations | Numbers, operators, numeric data types, `int`, `float` |
 | [4](lessons/04-docstrings) | Docstrings and Code Documentation | Docstrings, `help()`, function documentation, `__doc__` |
-| [6](lessons/06-strings) | Strings | String manipulation and formatting |
-| [7](lessons/07-text-files) | Text Files | Opening, reading, and writing files |
-| [8](lessons/08-lists) | Lists | Lists and `for … in` loops |
-| [9](lessons/09-decisions) | Decisions | `if`, `elif`, `else`, booleans (`True`/`False`), `and`/`or`/`not` |
-| [10](lessons/10-for-loops) | For Loops with Range | `range()`, iteration patterns |
-| [10a](lessons/10a-sieve-of-eratosthenes) | Project — Sieve of Eratosthenes | Guided project: implement an algorithm using lists, ranges and text files to find every prime up to 1,000,000 |
-| [11](lessons/11-dictionaries) | Dictionaries | Key-value data structures |
-| [12](lessons/12-csv-files) | CSV Files | Reading and writing `.csv` |
-| [13](lessons/13-excel-files) | Excel Files | Reading and writing `.xlsx` with `openpyxl` |
-| [14](lessons/14-markdown) | Markdown | The Markdown format and Jekyll |
-| [15](lessons/15-git) | Version Control with Git | Installing Git, staging, commits, repository history |
-| [16](lessons/16-github) | GitHub — Remote Repositories and Collaboration | Remotes, pushing, pulling, GitHub repositories |
-| [17](lessons/17-github-pages) | GitHub Pages — Publishing Your Classroom Blog | GitHub Pages, Jekyll config, publishing a static site |
-| [17a](lessons/17a-manual-of-me) | Project — Manual of Me | Guided project: publishing a Markdown guide for colleagues with GitHub Pages |
-| [18](lessons/18-json) | JSON | JSON format, lists and dicts, marksheets |
-| [19](lessons/19-uv) | Code Reuse with Modules | Imports, writing modules, `if __name__ == "__main__":`, script entry points |
+| [5](lessons/05-strings) | Strings | String manipulation and formatting |
+| [6](lessons/06-text-files) | Text Files | Opening, reading, and writing files |
+| [7](lessons/07-lists) | Lists | Lists and `for … in` loops |
+| [8](lessons/08-decisions) | Decisions | `if`, `elif`, `else`, booleans (`True`/`False`), `and`/`or`/`not` |
+| [9](lessons/09-for-loops) | For Loops with Range | `range()`, iteration patterns |
+| [9a](lessons/09a-sieve-of-eratosthenes) | Project — Sieve of Eratosthenes | Guided project: implement an algorithm using lists, ranges and text files to find every prime up to 1,000,000 |
+| [10](lessons/10-dictionaries) | Dictionaries | Key-value data structures |
+| [11](lessons/11-csv-files) | CSV Files | Reading and writing `.csv` |
+| [12](lessons/12-excel-files) | Excel Files | Reading and writing `.xlsx` with `openpyxl` |
+| [13](lessons/13-markdown) | Markdown | The Markdown format and Jekyll |
+| [14](lessons/14-git) | Version Control with Git | Installing Git, staging, commits, repository history |
+| [15](lessons/15-github) | GitHub — Remote Repositories and Collaboration | Remotes, pushing, pulling, GitHub repositories |
+| [16](lessons/16-github-pages) | GitHub Pages — Publishing Your Classroom Blog | GitHub Pages, Jekyll config, publishing a static site |
+| [16a](lessons/16a-manual-of-me) | Project — Manual of Me | Guided project: publishing a Markdown guide for colleagues with GitHub Pages |
+| [17](lessons/17-json) | JSON | JSON format, lists and dicts, marksheets |
+| [18](lessons/18-uv) | Python Packaging with uv | Packages, virtual environments, `uv`, `pyproject.toml`, `requirements.txt` |
+| [19](lessons/19-code-reuse) | Code Reuse with Modules | Imports, modules, `if __name__ == "__main__":`, script entry points |
 | [20](lessons/20-unit-testing) | Unit Testing | Testing with `pytest` |
 | [21](lessons/21-try-except) | Error Handling — try / except | Exceptions, `try`, `except`, graceful failure |
 | [22](lessons/22-jupyter) | Jupyter Notebooks | Interactive notebooks, Markdown cells, running code cell by cell |

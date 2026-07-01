@@ -36,13 +36,13 @@ editing lessons in `lessons/`.
 ### Shared conventions for all lessons
 
 - Insert new lessons and projects using **letter-suffixed numbers** (for example
-  `10a`, `17a`) so the lesson slots in after its prerequisite without renumbering
+  `9a`, `16a`) so the lesson slots in after its prerequisite without renumbering
   existing lessons or breaking permalinks.  Reserve the plain number for the
   established sequence.
 - Place a lesson **after every lesson it depends on**.  Project lessons in
   particular must come after all of their prerequisite lessons.
 - Reference other lessons by number **and topic**, for example
-  "Lesson 7 (*Text Files*)", so the dependency is clear.
+  "Lesson 6 (*Text Files*)", so the dependency is clear.
 - Every lesson ends with previous/next navigation links, and links to the
   neighbouring lessons must be updated when a lesson is inserted or moved.
 - Downloadable resources for a lesson live in `resources/lesson-NN/` and are
