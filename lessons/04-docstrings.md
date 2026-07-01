@@ -155,4 +155,4 @@ code gives it the same discoverability.
 ---
 
 [← Lesson 3]({{ site.baseurl }}/lessons/03-mathematics/)
-[Next Lesson: Strings →]({{ site.baseurl }}/lessons/06-strings/)
+[Next Lesson: Strings →]({{ site.baseurl }}/lessons/05-strings/)

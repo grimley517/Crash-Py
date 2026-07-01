@@ -224,4 +224,4 @@ z = int("42")   # 42 — works on numeric strings too
 ---
 
 [← Lesson 2]({{ site.baseurl }}/lessons/02-functions/)
-[Next Lesson: Docstrings →]({{ site.baseurl }}/lessons/04-docstrings/)
+[Next Lesson: Docstrings and Code Documentation →]({{ site.baseurl }}/lessons/04-docstrings/)
