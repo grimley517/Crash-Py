@@ -1,9 +1,11 @@
 version: 2
 updates:
-  - package-ecosystem: "bundler"
-    directory: "/"
+  - package-ecosystem: bundler
+    directory: /
     schedule:
-      interval: "weekly"
-      day: "monday"
+      interval: weekly
+      day: monday
     assignees:
-      - "grimley517"
+      - grimley517
+    cooldown:
+      default-days: 7
